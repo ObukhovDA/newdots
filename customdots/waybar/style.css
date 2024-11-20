@@ -2,7 +2,7 @@
   border: none;
   /*border-radius: 5;*/
   font-family: "Terminus (TTF)", Noto Sans CJK;
-  font-size: 16pt;
+  font-size: 9pt;
   font-style: normal;
   font-weight: bold;
   min-height: 0;
@@ -21,7 +21,7 @@ window#waybar {
   font-weight: bold;
 }
 #workspaces button {
-  padding: 0px 0px;
+  padding: 0px 4px;
   color: #ebdbb2;
 }
 

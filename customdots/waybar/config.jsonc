@@ -17,7 +17,6 @@
     "pulseaudio",
     "backlight",
     "battery",
-    "bluetooth",
     "clock"
   ],
   // Modules configuration
@@ -35,13 +34,13 @@
       "1": [],
       "2": [],
       "3": [],
-      "4": [],
+      "4": []
     },
     "format-icons": {
       "1": "Ⅰ",
       "2": "Ⅱ",
       "3": "Ⅲ",
-      "4": "Ⅳ",
+      "4": "Ⅳ"
     }
   },
   "custom/layout": {
@@ -68,18 +67,6 @@
   "cpu": {
     "interval": 1,
     "format": "{usage:>2}%"
-  },
-  "custom/spotify": {
-    "format": "{}",
-    "max-length": 40,
-    "tooltip": true,
-    "tooltip-format": "{}",
-    "exec": "~/.config/waybar/bin/playerinfo",
-    "return-type": "string",
-    "restart-interval": 1,
-    "on-click": "playerctl -p spotify play-pause",
-    "on-scroll-up": "playerctl -p spotify next",
-    "on-scroll-down": "playerctl -p spotify previous"
   },
 
   "battery": {
@@ -115,8 +102,8 @@
   },
 
   "tray": {
-    "icon-size": 21,
-    "spacing": 10
+    "icon-size": 12,
+    "spacing": 5
   },
 
   "backlight": {
