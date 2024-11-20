@@ -127,8 +127,8 @@
   },
 
   "tray": {
-    "icon-size": 12,
-    "spacing": 5
+    "icon-size": 21,
+    "spacing": 10
   },
 
   "backlight": {
